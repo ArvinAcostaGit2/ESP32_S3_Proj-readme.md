@@ -15,7 +15,7 @@ It supports **multiple named databases**, full **CRUD** operations, and a polish
 
 ## 1. Page Load & Initialization
 
-```html
+
 <body onload="init()">
 
 
@@ -26,25 +26,13 @@ Implemented in the DatabaseSelector object.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 2. Database Management (Create / Select / Delete)
+Implemented in the DatabaseSelector object.
 
 ActionTriggerResultSelect“Use Selected Database”currentSelectedDB set → handleDbSelected() → UI updatesCreate“Add New Database” → enter name → “Create and Use Database”New IndexedDB created with object store qa_items (auto-increment id, index queIndex)Delete“Remove Selected Database” + confirmationEntire DB removed via indexedDB.deleteDatabase()
 Only databases containing the store qa_items are listed.
+
+
+
+
+```html
