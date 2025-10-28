@@ -17,3 +17,9 @@ It supports **multiple named databases**, full **CRUD** operations, and a polish
 
 ```html
 <body onload="init()">
+
+
+Action,Trigger,Result
+Select,“Use Selected Database”,currentSelectedDB set → handleDbSelected() → UI updates
+Create,“Add New Database” → enter name → “Create and Use Database”,"New IndexedDB created with object store qa_items (auto-increment id, index queIndex)"
+Delete,“Remove Selected Database” + confirmation,Entire DB removed via indexedDB.deleteDatabase()
