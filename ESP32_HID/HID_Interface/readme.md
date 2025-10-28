@@ -1,7 +1,7 @@
 # Q&A / Alias Manager – Full Process Flow & Features Analysis
 
 > **File:** `alias-manager.html`  
-> **Author:** Arvin P. Acosta - Assisted by AI Claude
+> **Author:** Arvin P. Acosta : Assisted by AI Claude
 > **Date:** 2025-10-28  
 
 ---
