@@ -15,8 +15,9 @@ It supports **multiple named databases**, full **CRUD** operations, and a polish
 
 ## 1. Page Load & Initialization
 
-
-
+```html
+<body onload="init()">
+---
 * Checks `window.indexedDB` support.  
 * Calls `DatabaseSelector.showSelectionModal(handleDbSelected)`.  
 * Opens the **Database Selection Modal** automatically.
