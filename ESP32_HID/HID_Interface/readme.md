@@ -1,5 +1,3 @@
-Below is a **ready-to-copy Markdown file** that contains the **complete “Full Process Flow & Features Analysis”** you asked for.  
-Just save it as `ANALYSIS.md` (or any name you like) and push it to your GitHub repo.
 
 ```markdown
 # Q&A / Alias Manager – Full Process Flow & Features Analysis
