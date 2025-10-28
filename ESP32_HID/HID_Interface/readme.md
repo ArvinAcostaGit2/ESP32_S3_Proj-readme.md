@@ -19,7 +19,32 @@ It supports **multiple named databases**, full **CRUD** operations, and a polish
 <body onload="init()">
 
 
-Action,Trigger,Result
-Select,“Use Selected Database”,currentSelectedDB set → handleDbSelected() → UI updates
-Create,“Add New Database” → enter name → “Create and Use Database”,"New IndexedDB created with object store qa_items (auto-increment id, index queIndex)"
-Delete,“Remove Selected Database” + confirmation,Entire DB removed via indexedDB.deleteDatabase()
+2. Database Management (Create / Select / Delete)
+Implemented in the DatabaseSelector object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ActionTriggerResultSelect“Use Selected Database”currentSelectedDB set → handleDbSelected() → UI updatesCreate“Add New Database” → enter name → “Create and Use Database”New IndexedDB created with object store qa_items (auto-increment id, index queIndex)Delete“Remove Selected Database” + confirmationEntire DB removed via indexedDB.deleteDatabase()
+Only databases containing the store qa_items are listed.
