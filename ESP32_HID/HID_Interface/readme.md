@@ -19,13 +19,6 @@ It supports **multiple named databases**, full **CRUD** operations, and a polish
 <body onload="init()">
 
 
-2. Database Management (Create / Select / Delete)
-Implemented in the DatabaseSelector object.
-
-
-
-
-
 ## 2. Database Management (Create / Select / Delete)
 Implemented in the DatabaseSelector object.
 
